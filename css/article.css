@@ -1,0 +1,70 @@
+body{
+  width: 1440px;
+  font-family: 'Fira Sans', sans-serif;
+}
+h1{
+  font-weight: 900;
+  font-size: 144px;
+  line-height: 145px;
+  color: #FFF;
+  margin-left: 122px;
+}
+.start{
+  height: 900px;
+  background: #8CC084;
+}
+a{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-decoration: none;
+  color: #161616;
+  opacity: .7;
+}
+a:nth-of-type(2){
+  margin-left: 44px;
+  margin-right: 44px;
+}
+.menu{
+  padding: 56px 524px 172px 122px;
+}
+p{
+  font-size: 24px;
+  line-height: 29px;
+  color: #161616;
+  font-weight: 0;
+}
+.fox{
+  height: 363px;
+}
+.fox-p{
+  width: 670px;
+  height: 176px;
+  padding: 93px 648px 94px 122px;
+}
+.experement{
+  height: 505px;
+  background: #161616;
+  color: #FFF;
+}
+.issl{
+  color: #FFF;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 102%;
+  padding: 135px 173px 0;
+}
+.excm{
+  font-size: 36px;
+  line-height: 43px;
+}
+.experement .excm{
+  color: #FFF;
+  padding: 18px 173px 0;
+  width: 680px;
+}
+.shuba::before{
+  width: 480px;
+  height: 697px;
+  background: #E16543; 
+}
