@@ -1,0 +1,21 @@
+footer{
+  width: 1440px;
+  height: 195px;
+  background: #333;
+  display: flex;
+  justify-content: space-around;
+}
+.tit{
+  margin-top: 82px;
+  font-size: 24px;
+  color: #FFF;
+  opacity: 0.7;
+  display: flex;
+}
+footer h2{
+  font-weight: 500;
+}
+footer p{
+  margin-left: 20px;
+  font-weight: normal;
+}
