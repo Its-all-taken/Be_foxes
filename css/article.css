@@ -201,6 +201,7 @@ h3{
   line-height: 29px;
 }
 .time-line{
+  position: absolute;
   width: 20px;
   height: 1155px;
   background: #161616;
@@ -219,25 +220,31 @@ h3{
   font-size: 36px;
   line-height: 43px;
 }
-/* .sobaki{
+.povedenie{
   width: 832px;
-  height: 663px;
-  background: #E16543;
-} */
-.sobaki p{
-  width: 643px;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 43px;
-  color: #FFF;
+height: 663px;
+background: #E16543;
+display: flex;
+float: right;
+}
+.povedenie p{
+width: 643px;
+height: 132px;
+font-weight: 500;
+font-size: 36px;
+line-height: 43px;
+color: #FFFFFF;
+margin: 266px 95px 265px 95px;
 }
 .itog{
+  display: flex;
   width: 1440px;
   height: 605px;
   background: #161616;
   color: #FFF;
 }
 .itog h2{
+  margin: 130px 973px 0 122px;
   width: 345px;
   font-weight: 900;
   font-size: 96px;
@@ -245,6 +252,7 @@ h3{
   color: #FFFFFF;
 }
 .itog p{
+  margin: 44px 365px 129px 122px;
   width: 953px;
   height: 187px;
   font-size: 36px;

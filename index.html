@@ -6,26 +6,26 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js\jquery-3.5.1.js" charset="utf-8"></script>
     <script type="text/javascript">
-      $(function() {
-  $('.sidebar a').each(function() {
-    $(this).on('click', function(e) {
-      e.preventDefault();
-      var scrollTo = $(this).attr('href');
-      var whitespace = scrollTo == '#s1' ? 70 : 30;
-      $('html,body').animate({
-        scrollTop: $(scrollTo).offset().top - whitespace
-      }, 1000);
-    });
-  });
-  });
-</script>
+          $(function() {
+      $('.menu a').each(function() {
+        $(this).on('click', function(e) {
+          e.preventDefault();
+          var scrollTo = $(this).attr('href');
+          var whitespace = scrollTo == '#s1' ? 70 : 0;
+          $('html,body').animate({
+            scrollTop: $(scrollTo).offset().top - whitespace
+          }, 1000);
+        });
+      });
+      });
+    </script>
   </head>
   <body>
     <div class="start">
       <div class="menu">
-        <a href="#">начало эксперимента</a>
-        <a href="#">новые хозяева</a>
-        <a href="#">исследования</a>
+        <a href="#ex">начало эксперимента</a>
+        <a href="#his">история</a>
+        <a href="#fin">итог</a>
       </div>
       <h1>Лисы профессора Беляева</h1>
     </div>
@@ -33,7 +33,7 @@
       <img class="fox-img"src="images\Reynard.png" alt="fox">
       <p class="fox-p">Эксперимент по одомашниванию лис, который был начат в 1959 году Дмитрием Константиновичем Беляевым и Людмилой Николаевной Трут на звероферме Новосибирского академгородка Сибирского отделения АН СССР, широко известен сегодня не только среди биологов, но и среди непрофессиональной публики. </p>
     </div>
-    <div class="exp">
+    <div id="ex" class="exp">
       <div class="exp-text">
         <p class="issled">Эксперимент был начат тогда, когда технологии молекулярных исследований были ещё очень примитивными.</p>
         <p class="excm">Сделать полноценную проверку тех или иных гипотез было невозможно.</p>
@@ -45,7 +45,7 @@
         <p class="skura">лис там выращивали на шкуры для шуб</p>
       </div>
     </div>
-    <div class="graph">
+    <div id="his" class="graph">
       <p class="info">Идея заключалась в том, чтобы воспроизвести на лисах тот же процесс одомашнивания, через который в прошлом прошли волки. Среди потомства от серебристо-черных лис стали проводить отбор лисят, демонстрировавших лояльность по отношению к человеку.</p>
       <h2>Процесс одомашнивания</h2>
       <div class="line">
@@ -95,10 +95,10 @@
       </div>
       <div class="time-line"></div>
     </div>
-    <div class="sobaki">
+    <div class="povedenie">
       <p>Поведение лис близко к поведению собаки, но при этом они остаются такими же независимыми, как кошки.</p>
     </div>
-    <div class="itog">
+    <div id="fin" class="itog">
       <div class="itog-text">
         <h2>ИТОГ</h2>
         <p>Ясного видения того, что же стоит за «синдромом доместикации» всё ещё нет, невозможно объяснить весь этот всплеск разнообразия в морфологии, сопровождающий отбор на «хорошее поведение».</p>
