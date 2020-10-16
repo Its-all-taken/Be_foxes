@@ -1,0 +1,46 @@
+.timeline{
+  display: grid;
+  width: 608px;
+  height: 1155px;
+  align-content: center;
+  right: 0px;
+  float: right;
+}
+.data{
+  display: flex;
+  margin-left: 68px;
+   z-index: 2;
+}
+.round{
+  margin-top: 26px;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 52px;
+  height: 52px;
+  background: #8CC084;
+  border-radius: 100%;
+}
+h3{
+  margin-top: 35px;
+  width: 74px;
+  left: 900px;
+  top: 4058px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+}
+.data p{
+  margin-top: 40px;
+  width: 351px;
+  font-size: 24px;
+  line-height: 29px;
+}
+.time-line{
+  position: absolute;
+  margin-left: 171px;
+  margin-top: 0;
+  width: 20px;
+  height: 1155px;
+  background: #161616;
+  z-index: 1;
+}
