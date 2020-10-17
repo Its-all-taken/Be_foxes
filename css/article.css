@@ -9,7 +9,38 @@ h1{
   color: #FFF;
   margin-left: 122px;
 }
+h2{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+}
+p{
+  font-size: 24px;
+  line-height: 29px;
+}
+.p-big{
+  font-size: 36px;
+  line-height: 43px;
+}
+.p-xl{
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 100%;
+}
 .start{
   height: 900px;
   background: #8CC084;
+}
+.fox img{
+  width: 708px;
+  height: 910px;
+  float: right;
+}
+.beginn img{
+  width: 480px;
+  height: 697px;
+}
+.card img{
+  width: 1196px;
+  height: 515px;
 }

@@ -9,7 +9,7 @@
 .data{
   display: flex;
   margin-left: 68px;
-   z-index: 2;
+  z-index: 2;
 }
 .round{
   margin-top: 26px;
@@ -17,17 +17,12 @@
   margin-right: 12px;
   width: 52px;
   height: 52px;
-  background: #8CC084;
+  background: #E16543;;
   border-radius: 100%;
 }
-h3{
+.timeline h2{
   margin-top: 35px;
   width: 74px;
-  left: 900px;
-  top: 4058px;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 43px;
 }
 .data p{
   margin-top: 40px;
