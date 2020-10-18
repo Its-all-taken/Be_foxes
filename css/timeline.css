@@ -1,0 +1,57 @@
+.timeline{
+  display: grid;
+  width: 608px;
+  height: 1155px;
+  align-content: center;
+  right: 0px;
+  float: right;
+}
+.data{
+  display: flex;
+  position: absolute;
+  margin-left: 68px;
+  z-index: 2;
+}
+.data1{
+  margin-top: -50px;
+}
+.data2{
+  margin-top: 148px;
+}
+.data3{
+  margin-top: 289px;
+}
+.data4{
+  margin-top: 686px;
+}
+.data5{
+  margin-top: 775px;
+}
+.round{
+  margin-top: 26px;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 52px;
+  height: 52px;
+  background: #E16543;;
+  border-radius: 100%;
+}
+.timeline h2{
+  margin-top: 35px;
+  width: 74px;
+}
+.data p{
+  margin-top: 40px;
+  width: 351px;
+  font-size: 24px;
+  line-height: 29px;
+}
+.time-line{
+  position: absolute;
+  margin-left: 171px;
+  margin-top: 0;
+  width: 20px;
+  height: 1360px;
+  background: #161616;
+  z-index: 1;
+}
