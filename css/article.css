@@ -35,12 +35,109 @@ p{
 }
 .start{
   height: 900px;
+  background-color: #8CC084;
+}
+.fox{
+  background-color: #FFF;
+  padding: 93px 596px 94px 172px;
+}
+.exp{
+  color: #FFF;
+  background-color: #161616;
+  padding: 176px 102px 177px 172px;
+}
+.exp .p-xl{
+  line-height: 85px;
+  margin-bottom: 22px;
+}
+.beginn{
+  display: flex;
+  background-color: #FFF;
+}
+.beginn-text{
+  margin: 233px 65px 234px 64px;
+}
+.dom{
   background: #8CC084;
+  padding: 169px 122px 229px 125px;
+}
+.dom .p-xl{
+  margin-top: 148px;
+}
+.graphic{
+  margin-top: 81px;
+}
+.graphic:nth-of-type(2){
+  margin-top: 42px;
+}
+.dom-line,.dom-line2{
+  margin: 19px auto;
+  height: 19px;
+  width: 1196px;
+}
+.dom-line{
+  background: #E16543;
+}
+.dom-line2{
+  background: #FFF;
+  opacity: 0.34;
+}
+.dom-line3{
+  margin-top: -38px;
+  position: absolute;
+  height: 19px;
+  width: 2px;
+  background: #E16543;
+}
+.trut{
+  height: 421px;
+  background-color: #FFF;
+  display: flex;
+}
+.trut .parag{
+  margin:  144px 36px auto 41px;
+}
+.info{
+  width: 832px;
+  height: 1218px;
+  background: #8CC084;
+}
+.info-t{
+  padding: 280px 181px 156px 122px;
+}
+.info-p:nth-of-type(2){
+  margin: 75px auto;
+}
+.timeline{
+  width: 608px;
+  height: 1218px;
+  margin-top: -1220px;
+}
+.card{
+  z-index: 3;
+  width: 1196px;
+  height: 515px;
+  margin: 62px 122px 140px 122px;
+}
+.card p{
+  width: 643px;
+  position: absolute;
+  margin: 230px 77px 153px 476px;
+}
+.itog{
+  background: #161616;
+  color: #FFF;
+  padding: 120px 365px 120px 122px;
+}
+.itog .p-xl{
+  margin-bottom: 35px;
 }
 .fox img{
   width: 708px;
   height: 910px;
-  float: right;
+  position: absolute;
+  left: 732px;
+  top: 353px;
 }
 .beginn img{
   width: 480px;
@@ -49,4 +146,10 @@ p{
 .card img{
   width: 1196px;
   height: 515px;
+}
+.trut img{
+  width: 677px;
+  height: 621px;
+  margin-top: -74px;
+  margin-left: 74px;
 }
