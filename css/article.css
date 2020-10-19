@@ -1,6 +1,24 @@
+html {
+    display: table;
+    margin: auto;
+    background-color: #F4F4F4;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+footer{
+  display: table-cell;
+  vertical-align: middle;
+}
 body{
   width: 1440px;
   font-family: 'Fira Sans', sans-serif;
+}
+.wrap{
+  width: 1440px;
+  height: 100%;
+  background-color: #FFF;
 }
 h1{
   font-weight: 900;
@@ -38,8 +56,14 @@ p{
   background-color: #8CC084;
 }
 .fox{
+  height: 363px;
+  display: flex;
+  overflow: visible;
   background-color: #FFF;
-  padding: 93px 596px 94px 172px;
+}
+.fox p{
+  width: 670px;
+  margin: 94px -200px 94px 172px;
 }
 .exp{
   color: #FFF;
@@ -133,11 +157,9 @@ p{
   margin-bottom: 35px;
 }
 .fox img{
+  margin-top: -547px;
   width: 708px;
   height: 910px;
-  position: absolute;
-  left: 732px;
-  top: 353px;
 }
 .beginn img{
   width: 480px;
