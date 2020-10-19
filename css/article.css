@@ -3,17 +3,11 @@ html {
     margin: auto;
     background-color: #F4F4F4;
 }
-body {
+body, footer{
     display: table-cell;
     vertical-align: middle;
-}
-footer{
-  display: table-cell;
-  vertical-align: middle;
-}
-body{
-  width: 1440px;
-  font-family: 'Fira Sans', sans-serif;
+    width: 1440px;
+    font-family: 'Fira Sans', sans-serif;
 }
 .wrap{
   width: 1440px;
@@ -56,14 +50,16 @@ p{
   background-color: #8CC084;
 }
 .fox{
+  position: relative;
   height: 363px;
   display: flex;
   overflow: visible;
   background-color: #FFF;
 }
-.fox p{
+ .fox p{
+  position: absolute;
+  padding: 94px 0 94px 172px;
   width: 670px;
-  margin: 94px -200px 94px 172px;
 }
 .exp{
   color: #FFF;
@@ -157,6 +153,7 @@ p{
   margin-bottom: 35px;
 }
 .fox img{
+  margin-left: 732px;
   margin-top: -547px;
   width: 708px;
   height: 910px;
