@@ -1,13 +1,13 @@
 html {
-    display: table;
-    margin: auto;
-    background-color: #F4F4F4;
+  display: table;
+  margin: auto;
+  background-color: #F4F4F4;
 }
 body, footer{
-    display: table-cell;
-    vertical-align: middle;
-    width: 1440px;
-    font-family: 'Fira Sans', sans-serif;
+  display: table-cell;
+  vertical-align: middle;
+  width: 1440px;
+  font-family: 'Fira Sans', sans-serif;
 }
 .wrap{
   width: 1440px;
